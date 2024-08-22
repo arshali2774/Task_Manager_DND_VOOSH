@@ -6,7 +6,8 @@ const FormComp = ({ formType }) => {
   // login with google functionality
   // redirecting to backend api route and then backend take care of the rest
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:3000/api/auth/google';
+    const googleLoginUrl = import.meta.env.VITE_GOOGLE_LOGIN_URL;
+    window.location.href = googleLoginUrl;
   };
   return (
     <div>

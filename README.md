@@ -4,12 +4,12 @@ This is a task manager app built using React, Redux Toolkit, Tanstack Query, Rea
 
 ## Features
 
-- User authentication using JWT
+- Login with Google
+- Login and Signup functionality
 - CRUD operations for tasks
 - Drag and drop functionality for reordering tasks
 - Search functionality for tasks
 - Sorting functionality for tasks
-- Error handling for API requests
 
 ## Getting Started
 
@@ -18,13 +18,13 @@ To get started, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/arshali2774/Task_Manager_DND_VOOSH.git
+git clone https://github.com/arshali2774/Task_Manager_DND_VOOSH_client.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd Task_Manager_DND_VOOSH
+cd Task_Manager_DND_VOOSH_client
 ```
 
 3. Install the dependencies:

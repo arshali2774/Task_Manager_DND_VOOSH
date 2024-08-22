@@ -18,13 +18,13 @@ To get started, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/task-manager-app.git
+git clone https://github.com/arshali2774/Task_Manager_DND_VOOSH.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd task-manager-app
+cd Task_Manager_DND_VOOSH
 ```
 
 3. Install the dependencies:

@@ -33,13 +33,29 @@ cd Task_Manager_DND_VOOSH_client
 npm install
 ```
 
-4. Start the development server:
+4. Set up the environment variables. Create a `.env.development` file for local development and a `.env.production` file for production:
+
+   **`.env.development`**
+
+   ```env
+   VITE_API_URL=http://localhost:3000/api
+   VITE_GOOGLE_LOGIN_URL=http://localhost:3000/api/auth/google
+   ```
+
+   **`.env.production`**
+
+   ```env
+   VITE_API_URL=https://task-manager-dnd-voosh-backend.onrender.com/api
+   VITE_GOOGLE_LOGIN_URL=https://task-manager-dnd-voosh-backend.onrender.com/api/auth/google
+   ```
+
+5. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-5. Open your browser and navigate to `http://localhost:5173`.
+6. Open your browser and navigate to `http://localhost:5173`.
 
 ## Process Explanation
 

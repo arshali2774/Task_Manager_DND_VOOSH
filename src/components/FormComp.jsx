@@ -92,7 +92,7 @@ const FormComp = ({ formType }) => {
               />
             </label>
 
-            <label className='input input-bordered flex items-center gap-2 '>
+            {/* <label className='input input-bordered flex items-center gap-2 '>
               <FaKey />
               <input
                 type='password'
@@ -100,7 +100,7 @@ const FormComp = ({ formType }) => {
                 placeholder='Confirm Password'
                 className='grow'
               />
-            </label>
+            </label> */}
 
             <button
               type='submit'

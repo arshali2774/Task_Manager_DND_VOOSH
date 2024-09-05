@@ -14,7 +14,7 @@ const Navbar = () => {
   const handleLogout = async () => {
     try {
       // Make the POST request to the logout API
-      await axiosInstance.post('/auth/logout');
+      await axiosInstance.get('/auth/logout');
 
       // Clear user from Redux state and localStorage
       dispatch(clearUser());

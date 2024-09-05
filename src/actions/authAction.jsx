@@ -22,6 +22,7 @@ export const loginAction = async ({ request }) => {
     toast.success('Login successful');
     return redirect('/tasks');
   } catch (error) {
+    console.log(error);
     // Return an error message to the component so it can display it in toast
     toast.error(error.response?.data?.message || 'Login failed');
     return { error: error.response?.data?.message || 'Login failed' };

@@ -10,7 +10,7 @@ const FormComp = ({ formType }) => {
     window.location.href = googleLoginUrl;
   };
   return (
-    <div>
+    <div className='mt-20'>
       <h1 className='text-4xl font-bold mb-8 text-accent'>
         {formType === 'login' ? 'Login' : 'Sign Up'}
       </h1>

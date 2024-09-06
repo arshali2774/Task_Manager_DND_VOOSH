@@ -8,6 +8,6 @@ export default {
   },
   plugins: [daisyui, tailwindScrollbar],
   daisyui: {
-    themes: ['sunset'],
+    themes: ['synthwave'],
   },
 };
